@@ -1,5 +1,96 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    transition: all 0.20s ease-in-out 0.20s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-orange {
+    background-color: #ee4d2d;
+}
+
+.c-black {
+    color: black;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+/* style */
+
+.base {
+    padding: 25px 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.links ul, ul li {
+    display: inline;
+}
+
+ul li a {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+ul li i {
+    color: white;
+    cursor: pointer;
+}
+
+.top-left a, .top-right a {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.top-left a, .top-right .sign {
+    border-right: 1px solid hsla(0,0%,100%,.7);
+}
+
+.links .follow { 
+    border-right: none;
+    margin-right: 0;
+}
+
+.links .login {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.sign {
+    margin-left: 10px;
+}
+
+.sign, .login {
+    font-weight: 700;
+}
+
+.links .lang {
+    padding-right: 0;
+}
+
+ul li a:hover, i:hover {
+    color: hsla(0,0%,100%,.7);
+}
+
+i {
+    border-right: none;
+    font-size: 15px;
+    margin-right: 10px;
 }
